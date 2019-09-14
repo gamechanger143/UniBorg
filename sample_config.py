@@ -87,6 +87,7 @@ class Config(object):
     TELE_GRAM_2FA_CODE = os.environ.get("TELE_GRAM_2FA_CODE", None)
     #
     GROUP_REG_SED_EX_BOT_S = os.environ.get("GROUP_REG_SED_EX_BOT_S", r"(regex|moku|BananaButler_|rgx|l4mR)bot")
+    GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     # rapidleech plugins
     OPEN_LOAD_LOGIN = os.environ.get("OPEN_LOAD_LOGIN", "0")
     OPEN_LOAD_KEY = os.environ.get("OPEN_LOAD_KEY", "0")
