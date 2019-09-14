@@ -6,7 +6,7 @@ cfscrape
 coffeehouse
 cryptg
 emoji
-github
+PyGithub
 googletrans
 google_images_download
 gtts
